@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:400,600italic);
+@import url(https://fonts.googleapis.com/css?family=Exo:400,600italic,900italic|Freckle+Face);
+@import url(https://fonts.googleapis.com/css?family=Kalam);
+
+body{
+  padding-top: 30px;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin: auto;
+}
+.centered{
+  text-align:center;
+}
+
+.exactCenter {
+    padding-top: 30px;
+    width:600px;
+    height:500px;
+    background-color: lightblue;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.div{
+  text: center;
+}
+
+#temperature{
+  font-family: 'Freckle Face', cursive;
+  font-size: 60px;
+  padding-top: 15px;
+}
+
+#current-summary{
+  padding-top: 10px;
+}
+#with-in-hour{
+  padding-top: 20px;
+}
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios {
+  border-radius: 20px;
+  margin:0 auto;
+
+}
+.toggle.ios .toggle-handle {
+  border-radius: 60px;
+}
+
+footer{
+  padding-top: 12px;
+  font-family: 'Kalam', cursive;
+}
